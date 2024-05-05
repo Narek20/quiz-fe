@@ -1,0 +1,38 @@
+.question {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+
+  .questionText {
+    font-size: 25px;
+    color: black;
+  }
+
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+
+    .option {
+      background-color: #fdf4ef;
+      display: flex;
+      justify-content: space-between;
+      border-radius: 20px;
+      padding: 10px;
+      cursor: pointer;
+      position: relative;
+
+      .text {
+        font-size: 20px;
+        color: black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}
