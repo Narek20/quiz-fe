@@ -1,13 +1,5 @@
-import { createBrowserRouter, Outlet, Navigate } from 'react-router-dom'
-// import Login from 'pages/Login'
-import localStorageKeys from '@utils/localStorageKeys'
+import { createBrowserRouter, Outlet } from 'react-router-dom'
 import QuizPage from 'pages/QuizPage'
-import Dashboard from 'pages/Dashboard'
-
-interface IProps {
-  element: JSX.Element
-  redirect: string
-}
 
 const router = createBrowserRouter([
   {
