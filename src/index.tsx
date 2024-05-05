@@ -7,7 +7,6 @@ import { THEME } from 'global/MuiTheme'
 import App from 'App'
 
 import './index.css'
-import { ApolloProvider } from '@apollo/client'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
