@@ -27,7 +27,7 @@ const Question: FC<IProps> = ({ question, isReviewing, answer, setAnswer }) => {
   return (
     <Box className={styles.question}>
       <Typography className={styles.questionText}>
-        Question: {question.questionText}
+        {question.questionText}
       </Typography>
       <Box className={styles.options}>
         {question.options.map((option, ind) => (

@@ -6,7 +6,7 @@
   width: 100%;
 
   .questionText {
-    font-size: 25px;
+    font-size: 20px;
     color: black;
   }
 
@@ -23,10 +23,12 @@
       border-radius: 20px;
       padding: 10px;
       cursor: pointer;
+      text-align: center;
       position: relative;
+      height: auto;
 
       .text {
-        font-size: 20px;
+        font-size: 10px;
         color: black;
         position: absolute;
         top: 50%;

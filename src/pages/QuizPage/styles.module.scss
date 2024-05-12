@@ -17,9 +17,8 @@
     }
 
     .quizDescription {
-      color: black;
-      font-size: 20px;
-      margin-top: 30px;
+      color: rgb(59, 59, 59);
+      font-size: 13px;
     }
   }
 
@@ -27,6 +26,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding: 20px;
     align-items: center;
 
     .score {
@@ -66,7 +66,8 @@
 
       .complete {
         font-size: 18px;
-        color: rgb(4, 255, 4);
+        border-color: #c67353;
+        color: #c67353;
       }
     }
   }
