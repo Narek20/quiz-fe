@@ -4,7 +4,11 @@ import { IQuiz } from 'types/quiz.type'
 
 export const getSingleQuiz = async (id: number): Promise<IResponse<IQuiz>> => {
   try {
-    const data = await axiosInstance.get('/blog-entries/' + id)
+    const data = await axiosInstance.get('/blog-entries/' + id, {
+      headers: {
+        'ngrok-skip-browser-warning': 'true'
+      }
+    })
     const quiz = {
       id: data.data.id,
       name: data.data.title,
